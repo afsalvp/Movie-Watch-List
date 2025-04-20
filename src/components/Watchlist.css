@@ -1,0 +1,47 @@
+.watchlist {
+    padding: 20px;
+  }
+  
+  .empty-watchlist {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .empty-watchlist p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .browse-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #032541;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .browse-link:hover {
+    background-color: #01b4e4;
+  }
+  
+  .watchlist-movie {
+    position: relative;
+  }
+  
+  .remove-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #ff1a1a;
+  }
